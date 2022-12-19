@@ -5,7 +5,7 @@ Welcome to the "Twitter ReWrapped" repository! This project is designed to analy
 The resulting images showcase various metrics such as:
 
 #### #WhatDoYouTalkAbout? 
-This feature allows users to see which topics (29 different possible topics) their tweets tend to focus on most frequently. This can be helpful for understanding what interests or passions the user has. In order to generate this image, we employed the use of a tensorflow model, specifically a multilayer perceptron (MLP), to analyze user tweets and classify them into various categories. To train and validate the model, we gathered a dataset of over 50,000 tweets from Reddit, using web scraping techniques. The resulting model was then applied to the user's tweet history, allowing us to visualize their tweet content and categorize it accordingly.
+This feature allows users to see which topics (29 different possible topics) their tweets tend to focus on most frequently. This can be helpful for understanding what interests or passions the user has. In order to generate this image, we employed the use of a tensorflow model, specifically a multilayer perceptron (MLP), and Universal Sentence Encoder's TF Hub module to analyze user tweets and classify them into various categories. To train and validate the model, we gathered a dataset of over 50,000 tweets from Reddit, using web scraping techniques. The resulting model was then applied to the user's tweet history, allowing us to visualize their tweet content and categorize it accordingly.
 
 <p align="center">
 <img src="tweet_photos/tweet_ID_1.png" width="400" height="400">
